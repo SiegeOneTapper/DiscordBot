@@ -25,14 +25,13 @@ client.on('message', (msg) => {
   if (msg.content === '!purpose') {
     msg.channel.send('At this moment in time I have no purpose apart from helping Ana learn JS.')
   }
-  client.on('message', msg => {
-    if (msg.channel.id === '571483749095833600') {
+  if (msg.channel.id === '571483749095833600') {
         if (msg.content === '!purpose') {
           msg.channel.send('https://cdn.discordapp.com/attachments/569217733498109956/576378343985905664/Screenshot_20190509-084144_Discord.jpg')
     }
 });
 
-});
+
 
 client.on('ready', ()=>{
   console.log('Bot is now connected');
