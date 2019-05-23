@@ -19,13 +19,13 @@ client.on('message', (msg) => {
   if (msg.content === '!>isthebestcommand') {
     msg.channel.send('Adriana knows she fucked up not using > as the prefix.')
   }
-  if (msg.content === 'Innocent') {
+  if (msg.content === '!innocent') {
     msg.channel.send('https://cdn.discordapp.com/attachments/569217733498109956/576378343985905664/Screenshot_20190509-084144_Discord.jpg')
   }
-  if (msg.content === 'Hoe') {
+  if (msg.content === '!hoe') {
     msg.channel.send('  https://cdn.discordapp.com/attachments/529740146338299905/578616783016165387/Screenshot_20190516-091624_Discord.jpg')
   }
-  if (msg.content === '!purpose') {
+  if (msg.content === !purpose') {
     msg.channel.send('At this moment in time I have no purpose apart from helping Ana learn JS.')
   }
 });
