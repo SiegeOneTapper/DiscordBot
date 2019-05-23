@@ -4,7 +4,8 @@ const token = 'NTgxMDkyMDk4NTAyMDMzNDA4.XOaOag.ha0qg86SZA1CGPrU1RF8EMX40qY';
 const client = new Discord.Client();
 client.on('message', (msg) => {
   if (msg.channel.id === '571483769962496001') {
-    msg.channel.send('https://cdn.discordapp.com/attachments/569217733498109956/576378343985905664/Screenshot_20190509-084144_Discord.jpg')
+    if (msg.content === '!innocent')
+      msg.channel.send('https://cdn.discordapp.com/attachments/569217733498109956/576378343985905664/Screenshot_20190509-084144_Discord.jpg')
   }
   if (msg.content === '!test'){
     msg.channel.send(`Hello ${msg.author}!`);
