@@ -30,7 +30,7 @@ client.on('message', (msg) => {
 client.on('ready', ()=>{
   console.log('Bot is now connected');
 
-  //client.channels.find(x => x.name === 'general-chattings').send('Hello! I\'m now connected!');
+  client.channels.find(x => x.name === 'general-chattings').send('SkyNet is now online. Executing extermination subroutine..');
 });
 
 client.login(token);
