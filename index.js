@@ -25,6 +25,9 @@ client.on('message', (msg) => {
   if (msg.content === 'Hoe') {
     msg.channel.send('  https://cdn.discordapp.com/attachments/529740146338299905/578616783016165387/Screenshot_20190516-091624_Discord.jpg')
   }
+  if (msg.content === '!purpose') {
+    msg.channel.send('At this moment in time I have no purpose apart from helping Ana learn JS.')
+  }
 });
 
 client.on('ready', ()=>{
