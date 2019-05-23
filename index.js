@@ -13,6 +13,9 @@ client.on('message', (msg) => {
   if (msg.content === '!bed') {
     msg.channel.send('Get out of bed you lovely person!')
   }
+  if (msg.content === '!sleep') {
+    msg.channel.send('https://www.youtube.com/watch?v=Udj-o2m39NA')
+  }
   if (msg.content === '!>isthebestcommand') {
     msg.channel.send('Adriana knows she fucked up not using > as the prefix.')
   }
