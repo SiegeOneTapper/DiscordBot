@@ -19,7 +19,7 @@ client.on('message', (msg) => {
   if (msg.content === '!>isthebestcommand') {
     msg.channel.send('Adriana knows she fucked up not using > as the prefix.')
   }
-  if (msg.content === ' Innocent') {
+  if (msg.content === 'Innocent') {
     msg.channel.send('https://cdn.discordapp.com/attachments/569217733498109956/576378343985905664/Screenshot_20190509-084144_Discord.jpg')
   }
   if (msg.content === 'Hoe') {
