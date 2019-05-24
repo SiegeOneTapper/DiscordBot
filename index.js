@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const token = 'NTgxMDkyMDk4NTAyMDMzNDA4.XOaOag.ha0qg86SZA1CGPrU1RF8EMX40qY';
+
 
 const client = new Discord.Client();
 client.on('message', (msg) => {
@@ -39,4 +39,4 @@ client.on('ready', ()=>{
   client.channels.find(x => x.name === 'general-chattings').send('SkyNet is now online. Executing extermination subroutine..');
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
