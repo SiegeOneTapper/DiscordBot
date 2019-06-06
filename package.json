@@ -1,13 +1,13 @@
 {
   "name": "DiscordBot",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a bot Adriana made to test JS. Do not expect updates.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adriana Allen",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.0"
