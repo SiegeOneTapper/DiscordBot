@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const conffig = require("./auth.json")
 
 
 const client = new Discord.Client();
@@ -39,4 +40,4 @@ client.on('ready', ()=>{
   client.channels.find(x => x.name === 'general-chattings').send('SkyNet is now online. Executing extermination subroutine..');
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(auth.token);
