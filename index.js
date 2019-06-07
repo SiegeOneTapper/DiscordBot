@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
-const token = require("./config.json");
+const config = require('./config.json');
+client.login(config.token);
 
 
 
@@ -40,4 +41,3 @@ client.on('ready', ()=>{
 
   client.channels.find(x => x.name === 'general-chattings').send('SkyNet is now online. Executing extermination subroutine..');
 });
-client.login(token);
