@@ -1,10 +1,11 @@
 const Discord = require('discord.js');
 const config = require('./config.json');
+const client = new Discord.Client();
 client.login(config.token);
 
 
 
-const client = new Discord.Client();
+
 client.on('message', (msg) => {
   if (msg.channel.id === '571483769962496001') {
     if (msg.content === '!innocent')
