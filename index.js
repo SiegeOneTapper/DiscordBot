@@ -14,6 +14,9 @@ client.on('message', (msg) => {
   if (msg.content === '!test'){
     msg.channel.send(`Hello ${msg.author}!`);
   }
+  if (msg.content === "!ping") {
+  message.channel.send("pong!")
+  }
 
   if (msg.content === '!maker') {
     msg.channel.send('Adriana made me! She\'s not dumb after all!')
